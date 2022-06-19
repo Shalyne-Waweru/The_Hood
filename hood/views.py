@@ -17,3 +17,10 @@ def join_hood(request):
     # request.user.profile.save()
     # return redirect('hood')
     return render(request, 'single_hood.html')
+
+# @login_required(login_url='login')
+def profile(request):
+    '''
+    View function that renders the profile page and its data
+    '''
+    return render(request, 'profile.html')
