@@ -4,4 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name = 'indexPage'),  
+    path('join_hood/', views.join_hood, name='join-hood'),
 ]
