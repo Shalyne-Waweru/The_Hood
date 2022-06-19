@@ -24,3 +24,9 @@ def profile(request):
     View function that renders the profile page and its data
     '''
     return render(request, 'profile.html')
+
+def login_user(request):
+    '''
+    View function that renders the login page and its data
+    '''
+    return render(request, 'auth/login.html')
